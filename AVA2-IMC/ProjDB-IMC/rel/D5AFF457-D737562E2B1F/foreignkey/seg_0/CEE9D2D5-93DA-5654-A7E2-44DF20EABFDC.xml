@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CEE9D2D5-93DA-5654-A7E2-44DF20EABFDC" containerWithKeyObject="C1279CAB-FD33-546C-2CF8-CE4D40E0C665" localFKIndex="7D5623B7-DCF5-AC58-7EF6-29472D74199B" name="hip_pes_FK">
+<createdBy>arthur.borgess</createdBy>
+<createdTime>2025-04-28 23:46:23 UTC</createdTime>
+<generatorID>41A2A4BA-6888-B112-8610-25686358A2D0</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<referredTableLongName>pes</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>33003090-31BF-6047-5181-8640F8E5FD1C</referredTableID>
+<keyObject>D964879B-7509-0517-01E3-0D0B5AE90BA1</keyObject>
+<referredKeyID>D964879B-7509-0517-01E3-0D0B5AE90BA1</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>cpfPessoa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
