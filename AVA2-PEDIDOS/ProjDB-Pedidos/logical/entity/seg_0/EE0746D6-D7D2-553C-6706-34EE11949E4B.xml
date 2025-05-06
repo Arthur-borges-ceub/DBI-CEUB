@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EE0746D6-D7D2-553C-6706-34EE11949E4B" name="cliente">
+<createdBy>arthur.borgess</createdBy>
+<createdTime>2025-05-05 23:26:56 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>cliente</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="estado" id="EC820AEE-9678-E53E-5FE5-268100D02553">
+<createdBy>arthur.borgess</createdBy>
+<createdTime>2025-05-05 23:27:29 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeCompleto" id="901E97F4-3D7F-A261-5622-438B6A4E2430">
+<createdBy>arthur.borgess</createdBy>
+<createdTime>2025-05-05 23:27:43 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="24BB0A30-928B-5B8E-B710-313E4B811003">
+<createdBy>arthur.borgess</createdBy>
+<createdTime>2025-05-05 23:28:20 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereço" id="365331F5-0A3B-57DE-864D-8E3941017721">
+<createdBy>arthur.borgess</createdBy>
+<createdTime>2025-05-05 23:42:34 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="F8364F7B-3DCA-5FF9-7BC8-6132BC5C40FD">
+<createdBy>arthur.borgess</createdBy>
+<createdTime>2025-05-05 23:45:56 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bairro" id="9396BBC2-C352-B13F-25DE-F912F4DA3666">
+<createdBy>arthur.borgess</createdBy>
+<createdTime>2025-05-05 23:50:26 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cidade" id="89C489A0-7983-DD22-3BBE-FEB2D8548F00">
+<createdBy>arthur.borgess</createdBy>
+<createdTime>2025-05-05 23:53:34 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cep" id="0845BFB3-9289-BFB1-E806-F1A13996F7D0">
+<createdBy>arthur.borgess</createdBy>
+<createdTime>2025-05-05 23:55:49 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8E15883B-0B4C-4793-44D1-9A6D9BF99B8A" name="cliente PK">
+<createdBy>arthur.borgess</createdBy>
+<createdTime>2025-05-06 00:16:31 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>24BB0A30-928B-5B8E-B710-313E4B811003</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

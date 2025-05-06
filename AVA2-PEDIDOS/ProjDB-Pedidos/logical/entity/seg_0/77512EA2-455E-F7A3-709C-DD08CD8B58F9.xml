@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="77512EA2-455E-F7A3-709C-DD08CD8B58F9" name="pedido">
+<createdBy>arthur.borgess</createdBy>
+<createdTime>2025-05-05 23:17:24 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>pedido</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idpedido" id="0227AA65-DE4A-DFEB-4827-D14BCEA0D589">
+<createdBy>arthur.borgess</createdBy>
+<createdTime>2025-05-05 23:35:46 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idcliente" id="6461E8FC-6048-5B03-CD5C-7506732A573F">
+<createdBy>arthur.borgess</createdBy>
+<createdTime>2025-05-05 23:37:26 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idvendedor" id="C370585F-8E1F-AB99-BEF3-6302D6C09ED9">
+<createdBy>arthur.borgess</createdBy>
+<createdTime>2025-05-05 23:37:48 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataHora" id="155C9CC0-BF8D-9061-0B29-595F300F71CB">
+<createdBy>arthur.borgess</createdBy>
+<createdTime>2025-05-05 23:38:12 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="statusPedido" id="10D09053-776D-A6DE-901B-AAF2FBB893DD">
+<createdBy>arthur.borgess</createdBy>
+<createdTime>2025-05-05 23:38:29 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valorTotal" id="CCE1113A-836F-BAC0-16C7-49DE49FF30B8">
+<createdBy>arthur.borgess</createdBy>
+<createdTime>2025-05-05 23:39:08 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="A2E36700-5ED2-84D5-25AC-9BFA1940D545">
+<createdBy>arthur.borgess</createdBy>
+<createdTime>2025-05-06 00:50:09 UTC</createdTime>
+<generatorID>DBE44454-EF43-ABB8-DBF2-C2B4C0557A2B</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<referedAttribute>24BB0A30-928B-5B8E-B710-313E4B811003</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeCompleto" id="76565DB5-0141-03B8-96BD-427B55CE5672">
+<createdBy>arthur.borgess</createdBy>
+<createdTime>2025-05-06 00:50:45 UTC</createdTime>
+<generatorID>961C5EA5-E164-34CD-A503-B6DF1B9184AA</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>FB235464-3950-A459-C1B6-042046CEE410</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B4A527B1-FCD4-5A5F-C318-9E99F674F54C" name="pedido PK">
+<createdBy>arthur.borgess</createdBy>
+<createdTime>2025-05-06 00:13:59 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0227AA65-DE4A-DFEB-4827-D14BCEA0D589</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
