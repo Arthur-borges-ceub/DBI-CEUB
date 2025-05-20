@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="80429625-8913-6155-6539-2621A71C2453" name="Dependente">
+<createdBy>arthur.borgess</createdBy>
+<createdTime>2025-05-20 00:00:13 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="267BD258-593C-15E9-083B-AAA4C8F3738F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfDependente" id="F351077F-B64F-BEB8-0890-4B798D166ACB">
+<createdBy>arthur.borgess</createdBy>
+<createdTime>2025-05-20 00:00:13 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="267BD258-593C-15E9-083B-AAA4C8F3738F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeDependente" id="DC240F8C-D3D0-B44E-BCB0-6EF9A9D124BD">
+<createdBy>arthur.borgess</createdBy>
+<createdTime>2025-05-20 00:00:13 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="267BD258-593C-15E9-083B-AAA4C8F3738F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nascimento" id="F6B3200B-C68A-4399-DBFD-387490A674EE">
+<createdBy>arthur.borgess</createdBy>
+<createdTime>2025-05-20 00:00:13 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="267BD258-593C-15E9-083B-AAA4C8F3738F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="parentesco" id="970E6751-0601-4BD1-0808-8F34D1DDA46C">
+<createdBy>arthur.borgess</createdBy>
+<createdTime>2025-05-20 00:00:13 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="267BD258-593C-15E9-083B-AAA4C8F3738F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="B126268B-3881-0936-A4B6-E8D90180B313">
+<createdBy>arthur.borgess</createdBy>
+<createdTime>2025-05-20 00:12:36 UTC</createdTime>
+<generatorID>12F18CE8-366E-55EB-6002-6B0286DF88A9</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="267BD258-593C-15E9-083B-AAA4C8F3738F" value="true"/>
+</engineerTo>
+<referedAttribute>0BA9697A-84D9-35BC-74AB-22E215E96998</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="643CA866-1DED-EEAD-11CF-A3B231201F00" name="Titular PK">
+<createdBy>arthur.borgess</createdBy>
+<createdTime>2025-05-20 00:00:13 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="267BD258-593C-15E9-083B-AAA4C8F3738F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F351077F-B64F-BEB8-0890-4B798D166ACB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

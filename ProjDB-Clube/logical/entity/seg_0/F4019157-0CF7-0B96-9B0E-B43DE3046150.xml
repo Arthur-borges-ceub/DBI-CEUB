@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F4019157-0CF7-0B96-9B0E-B43DE3046150" name="Telefone Titular">
+<createdBy>arthur.borgess</createdBy>
+<createdTime>2025-05-19 23:37:00 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="267BD258-593C-15E9-083B-AAA4C8F3738F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpf" id="CCBF0698-356A-F6FD-F958-03BF52237B91">
+<createdBy>arthur.borgess</createdBy>
+<createdTime>2025-05-19 23:39:18 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="267BD258-593C-15E9-083B-AAA4C8F3738F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="5BE71A3A-B952-C06A-7E79-D359DD5F2B51">
+<createdBy>arthur.borgess</createdBy>
+<createdTime>2025-05-19 23:40:01 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="267BD258-593C-15E9-083B-AAA4C8F3738F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14 CHAR</dataTypeSize>
+<ownDataTypeParameters>14 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipoTelefone" id="681BC641-113A-2826-D15F-7FD41513B362">
+<createdBy>arthur.borgess</createdBy>
+<createdTime>2025-05-19 23:40:55 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="267BD258-593C-15E9-083B-AAA4C8F3738F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular" id="43F03C89-9D4B-3F47-7196-A920D111C2F7">
+<createdBy>arthur.borgess</createdBy>
+<createdTime>2025-05-20 00:12:55 UTC</createdTime>
+<generatorID>007B6665-4A34-A2A5-13F2-F5AE86F3BC9C</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="267BD258-593C-15E9-083B-AAA4C8F3738F" value="true"/>
+</engineerTo>
+<referedAttribute>0F089938-5AA6-4B8F-74E1-3078D7B1B3B5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfDependente" id="1D8A25D0-40E0-47A4-CFE5-685FBA8D2384">
+<createdBy>arthur.borgess</createdBy>
+<createdTime>2025-05-20 00:14:13 UTC</createdTime>
+<generatorID>37FA13CC-1755-3585-EEC3-9A00A71C3D33</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="267BD258-593C-15E9-083B-AAA4C8F3738F" value="true"/>
+</engineerTo>
+<referedAttribute>F351077F-B64F-BEB8-0890-4B798D166ACB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9F3FB7E0-A70E-14EF-F667-9842D8D8CCE7" name="Telefone Titular PK">
+<createdBy>arthur.borgess</createdBy>
+<createdTime>2025-05-19 23:39:59 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="267BD258-593C-15E9-083B-AAA4C8F3738F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CCBF0698-356A-F6FD-F958-03BF52237B91</attributeRef>
+<attributeRef>5BE71A3A-B952-C06A-7E79-D359DD5F2B51</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
